@@ -1,0 +1,71 @@
+@import "../app/fonts";
+
+.tools {
+  background-color: white;
+  width: 100%;
+  max-width: 308px;
+  height: 325px;
+  padding: 30px;
+}
+
+.tools__btn__container {
+  margin-bottom: 25px;
+}
+
+.tools__btn {
+  font-family: 'ProximaNovaLight';
+  width: 100%;
+  height: 35px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.tools__btn:active {
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 4px;
+  -webkit-box-shadow: inset 0 0 4px;
+}
+
+.tools__btn:focus {
+  border: none;
+  outline: none;
+}
+
+.btn__result {
+  background-color: #0284c6;
+  color: white;
+}
+
+.btn__result:hover {
+  background-color: #0a608b;
+}
+
+.btn__sweep {
+  background-color: #dfdfdf;
+  color: #333333;
+}
+
+.btn__sweep:hover {
+  background-color: #bfbfbf;
+}
+
+.tools_filter {
+  font-family: 'ProximaNovaRegular';
+}
+
+.tools_filter > span {
+  font-size: 17px;
+  color: #4a4a4a;
+}
+
+.tools_filter__checkboxes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 15px;
+}
+
+.tools_filter__group_checkbox {
+  width: 50%;
+}
